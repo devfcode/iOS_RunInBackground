@@ -14,13 +14,6 @@
 		3AC4D79E29D71646000FBFDC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4D79C29D71646000FBFDC /* LaunchScreen.storyboard */; };
 		3AC4D7A129D71646000FBFDC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4D7A029D71646000FBFDC /* main.m */; };
 		3AC4D7BD29D7FFFA000FBFDC /* JM.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4D7BC29D7FFFA000FBFDC /* JM.wav */; };
-		3AC4D7F629D86E48000FBFDC /* shot.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4D7EF29D86E48000FBFDC /* shot.wav */; };
-		3AC4D7F729D86E48000FBFDC /* bg_ordinary.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4D7F029D86E48000FBFDC /* bg_ordinary.mp3 */; };
-		3AC4D7F829D86E48000FBFDC /* jump_maze.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4D7F129D86E48000FBFDC /* jump_maze.wav */; };
-		3AC4D7F929D86E48000FBFDC /* back02.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4D7F229D86E48000FBFDC /* back02.mp3 */; };
-		3AC4D7FA29D86E48000FBFDC /* bg_maze.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4D7F329D86E48000FBFDC /* bg_maze.mp3 */; };
-		3AC4D7FB29D86E48000FBFDC /* rock_clash.wav in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4D7F429D86E48000FBFDC /* rock_clash.wav */; };
-		3AC4D7FC29D86E48000FBFDC /* Splash.caf in Resources */ = {isa = PBXBuildFile; fileRef = 3AC4D7F529D86E48000FBFDC /* Splash.caf */; };
 		3AC4D83429D8712D000FBFDC /* RunWhenInBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = 3AC4D83329D8712D000FBFDC /* RunWhenInBackground.m */; };
 /* End PBXBuildFile section */
 
@@ -36,13 +29,6 @@
 		3AC4D79F29D71646000FBFDC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3AC4D7A029D71646000FBFDC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3AC4D7BC29D7FFFA000FBFDC /* JM.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = JM.wav; sourceTree = "<group>"; };
-		3AC4D7EF29D86E48000FBFDC /* shot.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = shot.wav; sourceTree = "<group>"; };
-		3AC4D7F029D86E48000FBFDC /* bg_ordinary.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg_ordinary.mp3; sourceTree = "<group>"; };
-		3AC4D7F129D86E48000FBFDC /* jump_maze.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump_maze.wav; sourceTree = "<group>"; };
-		3AC4D7F229D86E48000FBFDC /* back02.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = back02.mp3; sourceTree = "<group>"; };
-		3AC4D7F329D86E48000FBFDC /* bg_maze.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = bg_maze.mp3; sourceTree = "<group>"; };
-		3AC4D7F429D86E48000FBFDC /* rock_clash.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = rock_clash.wav; sourceTree = "<group>"; };
-		3AC4D7F529D86E48000FBFDC /* Splash.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Splash.caf; sourceTree = "<group>"; };
 		3AC4D83229D8712D000FBFDC /* RunWhenInBackground.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RunWhenInBackground.h; sourceTree = "<group>"; };
 		3AC4D83329D8712D000FBFDC /* RunWhenInBackground.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunWhenInBackground.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -95,7 +81,6 @@
 		3AC4D7BB29D7FFE6000FBFDC /* resource */ = {
 			isa = PBXGroup;
 			children = (
-				3AC4D7EE29D86E48000FBFDC /* sound */,
 				3AC4D7BC29D7FFFA000FBFDC /* JM.wav */,
 			);
 			path = resource;
@@ -108,20 +93,6 @@
 				3AC4D83329D8712D000FBFDC /* RunWhenInBackground.m */,
 			);
 			path = my;
-			sourceTree = "<group>";
-		};
-		3AC4D7EE29D86E48000FBFDC /* sound */ = {
-			isa = PBXGroup;
-			children = (
-				3AC4D7EF29D86E48000FBFDC /* shot.wav */,
-				3AC4D7F029D86E48000FBFDC /* bg_ordinary.mp3 */,
-				3AC4D7F129D86E48000FBFDC /* jump_maze.wav */,
-				3AC4D7F229D86E48000FBFDC /* back02.mp3 */,
-				3AC4D7F329D86E48000FBFDC /* bg_maze.mp3 */,
-				3AC4D7F429D86E48000FBFDC /* rock_clash.wav */,
-				3AC4D7F529D86E48000FBFDC /* Splash.caf */,
-			);
-			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,17 +152,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3AC4D7F629D86E48000FBFDC /* shot.wav in Resources */,
 				3AC4D79E29D71646000FBFDC /* LaunchScreen.storyboard in Resources */,
 				3AC4D7BD29D7FFFA000FBFDC /* JM.wav in Resources */,
-				3AC4D7F929D86E48000FBFDC /* back02.mp3 in Resources */,
-				3AC4D7FC29D86E48000FBFDC /* Splash.caf in Resources */,
-				3AC4D7F729D86E48000FBFDC /* bg_ordinary.mp3 in Resources */,
 				3AC4D79B29D71646000FBFDC /* Assets.xcassets in Resources */,
-				3AC4D7FA29D86E48000FBFDC /* bg_maze.mp3 in Resources */,
-				3AC4D7F829D86E48000FBFDC /* jump_maze.wav in Resources */,
 				3AC4D79929D71645000FBFDC /* Main.storyboard in Resources */,
-				3AC4D7FB29D86E48000FBFDC /* rock_clash.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
