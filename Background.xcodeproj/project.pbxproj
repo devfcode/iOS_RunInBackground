@@ -63,7 +63,7 @@
 		3AC4D78D29D71645000FBFDC /* Background */ = {
 			isa = PBXGroup;
 			children = (
-				3AC4D7C729D82477000FBFDC /* my */,
+				3AC4D7C729D82477000FBFDC /* tool */,
 				3AC4D7BB29D7FFE6000FBFDC /* resource */,
 				3AC4D78E29D71645000FBFDC /* AppDelegate.h */,
 				3AC4D78F29D71645000FBFDC /* AppDelegate.m */,
@@ -86,13 +86,13 @@
 			path = resource;
 			sourceTree = "<group>";
 		};
-		3AC4D7C729D82477000FBFDC /* my */ = {
+		3AC4D7C729D82477000FBFDC /* tool */ = {
 			isa = PBXGroup;
 			children = (
 				3AC4D83229D8712D000FBFDC /* RunWhenInBackground.h */,
 				3AC4D83329D8712D000FBFDC /* RunWhenInBackground.m */,
 			);
-			path = my;
+			path = tool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
