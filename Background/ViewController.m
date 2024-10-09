@@ -19,13 +19,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.timer = [NSTimer scheduledTimerWithTimeInterval:5 target:self selector:@selector(subtractTime) userInfo:nil repeats:YES];
+    self.timer = [NSTimer scheduledTimerWithTimeInterval:2 target:self selector:@selector(subtractTime) userInfo:nil repeats:YES];
     // 启动定时器
     [self.timer fire];
 }
 
 -(void)subtractTime {
-    NSString *tip = [NSString stringWithFormat:@"--------------> 循环运行 第 %d 次", _num++];
+    NSString *tip = [NSString stringWithFormat:@"循环运行 第 %d 次", _num++];
     NSLog(@"%@",tip);
     [self.show setText:tip];
 }
